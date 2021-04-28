@@ -69,7 +69,6 @@ hexo.extend.deployer.register('aliyunoss', async function (args) {
             result['objects'].forEach(iteam => {
                 filelist.push(iteam['name']);
             });
-            console.log(result['objects'].length)
             await client.deleteMulti(filelist)
             return del()
         }
@@ -87,7 +86,7 @@ hexo.extend.deployer.register('aliyunoss', async function (args) {
         for (const iteam of filelist) {
             await doput(iteam)
         }
-        console.log("%s 成功部署 oss 内容！", chalk.red("INFO"))
+        console.log("%s 成功部署 oss 内容！", chalk.green("INFO"))
     }
 
     await del()
