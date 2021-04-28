@@ -1,0 +1,14 @@
+{
+    "name": "hexo-deployer-oss-aliyun",
+    "version": "1.0.0",
+    "description": "hexo deployer aliyun oss tool ",
+    "main": "index.js",
+    "author": "https://t.me/elrepo",
+    "license": "BSD 3-Clause",
+    "dependencies": {
+        "ali-oss": "^6.15.2",
+        "chalk": "^4.1.1",
+        "path": "^0.12.7",
+        "rd": "^2.0.1"
+    }
+}
