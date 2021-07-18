@@ -13,7 +13,7 @@ npm install --save hexo-deployer-oss-aliyun
 ```yaml
 # https://oss.console.aliyun.com/bucket/oss-us-west-1/f9a329b03
 deploy:
-    type: aliyun-oss
+    type: aliyunoss
     region: <Region Code> # oss-us-west-1
     bucket: <Bucket Name> # f9a329b03
     accessKeyId: <Aliyun AccessKeyId> 
